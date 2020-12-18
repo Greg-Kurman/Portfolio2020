@@ -1003,8 +1003,9 @@ textarea.form-control {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-    cursor: pointer;
-    display: block;
+   
+    display: inline-block;
+    text-align: right;
     width: 100%;
     height: 16rem;
     padding-top: 3rem;
@@ -1016,7 +1017,10 @@ textarea.form-control {
    
 }
 
-#footer p{  
+#footer div{  
+    cursor: pointer;
+    margin-left: 85%;
+    width: 20rem;
     font-size: 20px;
 }
 
